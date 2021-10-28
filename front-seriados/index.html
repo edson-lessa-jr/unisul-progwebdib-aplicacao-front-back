@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gestão de Seriados</title>
+    <link rel="stylesheet" href="css/principal.css">
+
+</head>
+<body>
+<header>
+    <section>Gestão de Seriados</section>
+    <section>
+        <nav>
+            <ul>
+                <li id="abrirFormularioCadastroSeriado" data-tipo="formulario">Cadastro de Seriados</li>
+                <li>Listar Seriados</li>
+            </ul>
+        </nav>
+    </section>
+</header>
+<main>
+    <section id="mensagens">
+        <div id="msgFormulario" class="mensagens">aaaa</div>
+    </section>
+    <section id="cadSeriado" >
+        <article id="tituloSeriado" class="titulos">Cadastro do Seriado</article>
+        <article id="formularioSeriado" class="formularios">
+            <form action="#" id="frmCadSeriado">
+                <label for="idSeriado">Id</label>
+                <input type="number" name="nrID" id="idSeriado">
+                <label for="nomeSeriado">Nome</label>
+                <input type="text" name="txtNome" id="nomeSeriado">
+                <label for="dataLancamentoSeriado">Data de Lançamento</label>
+                <input type="date" name="dtLancamento" id="dataLancamentoSeriado">
+                <label for="descricaoSeriado">Descrição</label>
+                <input type="text" name="txtDescrição" id="descricaoSeriado">
+                <br>
+                <button id="btnSalvar" type="button">Salvar</button>
+                <button id="btnLimpar" type="reset">Limpar</button>
+            </form>
+        </article>
+    </section>
+</main>
+<footer>
+    <div id="wait" class="loading esconder">
+        <img src="images/demo_wait.gif" />
+
+    </div>
+</footer>
+
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/seriado.js"></script>
+<script src="js/padrao.js"></script>
+</body>
+</html>

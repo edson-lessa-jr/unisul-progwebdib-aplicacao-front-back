@@ -1,0 +1,101 @@
+header section{
+    position: relative;
+    width: 100%;
+    background-color: #006200;
+}
+header section:first-child{
+    font-family: "Arial Black";
+    font-size: xxx-large;
+    padding-top: 30px;
+    height: 80px;
+    color: white;
+    text-align: center;
+}
+nav ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+#cadSeriado{
+    visibility: hidden;
+}
+nav ul li{
+    background-color: #015901;
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    width: 50%;
+    height: 40px;
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: medium;
+}
+nav ul li:hover {
+    cursor: pointer;
+    background-color: #35802f;
+}
+
+.titulos{
+    font-family: "Arial Black";
+    text-align: center;
+    height: 40px;
+    font-size: x-large;
+    padding-top: 20px;
+}
+.formularios{
+    position: relative;
+    width: 400px;
+    left: calc(50% - 200px);
+    border: 1px solid gray;
+    padding: 10px;
+}
+input{
+    width: 95%;
+    height: 25px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+
+}
+button{
+    width: 100px;
+    height: 30px;
+    background-color: #006200;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    border: 0px;
+}
+label{
+    font-weight: bold;
+}
+
+.mensagens{
+    visibility: hidden;
+    position: fixed;
+    width: 200px;
+    height: 50px;
+    border-bottom-left-radius: 10px;
+    padding-left: 10px;
+    padding-top: 25px;
+    right: 0px;
+    background-color: #0d83a9;
+}
+.mensagensErro{
+    position: fixed;
+    width: 200px;
+    height: 50px;
+    border-bottom-left-radius: 10px;
+    padding-left: 10px;
+    padding-top: 25px;
+    right: 0px;
+    background-color: #be4747;
+}
+.loading{
+    position: fixed;
+    left: calc(50% - 10px);
+    top: 50%;
+}
+.esconder{
+    visibility: hidden;
+}
